@@ -10,15 +10,47 @@
 </head>
 
 <body>
+  <div class="world">
+    <div class="city stop-animate"></div>
+    <div class="city_copy stop-animate"></div>
+    <div class="trees stop-animate"></div>
+    <div class="trees_copy stop-animate"></div>
+    <div class="sidewalk stop-animate"></div>
+    <div class="sidewalk_copy stop-animate"></div>
+    <div class="road stop-animate"></div>
+    <div class="road_copy stop-animate"></div>
 
-  <div class="city"></div>
-  <div class="trees"></div>
-  <div class="sidewalk"></div>
-  <div class="road"></div>
+    <div class="car stop-animate"></div>
 
-  <div class="car"></div>
+    <div class="wheel-wrapper">
+      <div class="front-wheel stop-animate"></div>
+      <div class="back-wheel stop-animate"></div>
+    </div>
 
-  <!-- <button type="button"></button> -->
+    <div class="place-in-the-race">
+      <span class='place-in-the-race__text'>#14</span>
+      <div class="chat-triangle"></div>
+    </div>
+
+    <div class="rivals">
+      <div class="rivals__one">#1<span class='rivals-triangle-one'></span></div>
+      <div class="rivals__two">#2<span class='rivals-triangle-two'></span></div>
+      <div class="rivals__three">#3<span class='rivals-triangle-three'></span></div>
+    </div>
+
+    <div class="speed">
+      <span id='speed'>0</span>
+      <p>wpm</p>
+    </div>
+    <div class="timer">
+      <span id='timer'>0:00.0</span>
+    </div>
+
+    <button class="start-btn" type="button"></button>
+    <audio src="./audio/level.ogg"></audio>
+    <button class="audio-btn" type="button"></button>
+
+  </div>
 
   <script src="script.js"></script>
 </body>
